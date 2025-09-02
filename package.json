@@ -1,0 +1,32 @@
+{
+  "name": "app-de-rastreo-de-vida-saludable",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/native-stack": "^6.0.0",
+    "firebase": "^9.0.0",
+    "react": "17.x",
+    "react-dom": "17.x",
+    "react-native": "0.64.0",
+    "react-native-gesture-handler": "^2.0.0",
+    "react-native-reanimated": "^2.0.0",
+    "react-native-safe-area-context": "^3.0.0",
+    "react-native-screens": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^27.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
